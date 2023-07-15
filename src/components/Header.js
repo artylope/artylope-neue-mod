@@ -44,10 +44,9 @@ const Header = () => {
             } w-full h-full grow items-center justify-start lg:justify-end gap-x-12 flex-col lg:flex-row gap-y-3`}
           >
             {' '}
-            <DarkModeSwitch />
             <nav className="w-full grow flex ">
               <ul className="w-full grow flex gap-x-8 gap-y-2 flex-col justify-start items-start lg:flex-row lg:justify-end lg:items-center">
-                {/* <NavLink link="/guide" label="Guide" /> */}
+                <DarkModeSwitch />
                 <NavLink link="/" label="Home" />
                 <NavLink link="/works" label="Works" />
                 <NavLink link="/blog" label="Blog" />
