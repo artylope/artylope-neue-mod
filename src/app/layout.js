@@ -1,4 +1,6 @@
 import './globals.scss';
+import Providers from './providers';
+import DarkModeSwitch from '@/components/DarkModeSwitch';
 
 export const metadata = {
   title: 'Artylope',
@@ -8,7 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col grow">{children}</body>
+      <body className="min-h-screen flex flex-col grow">
+        <Providers>
+          <DarkModeSwitch />
+          {children}
+        </Providers>
+      </body>
     </html>
   );
 }
