@@ -1,5 +1,7 @@
 import './globals.scss';
 import Providers from './providers';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Artylope',
@@ -14,7 +16,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`min-h-screen flex flex-col grow`}>
-        <Providers>{children}</Providers>
+        <Providers>
+          <Header />
+          <main className="flex grow">{children}</main>
+
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
