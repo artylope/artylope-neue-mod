@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex grow bg-indigo-100">
+      <main className="flex grow bg-indigo-100 dark:bg-indigo-950">
         <div className="container bg-slate-100 dark:bg-black">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-red-500 h-20">01</div>
