@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,4 +8,6 @@
 
 body {
   font-family: "Hanken Grotesk", sans-serif;
+  // font-family: 'Epilogue', sans-serif;
+  // font-family: "Syne", sans-serif;
 }

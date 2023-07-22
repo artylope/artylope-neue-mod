@@ -1,6 +1,6 @@
 const page = () => {
   return (
-    <main className="bg-pink-500 flex-grow">
+    <main className="flex-grow">
       <div className="container">Blog</div>
     </main>
   );

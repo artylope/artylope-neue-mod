@@ -15,11 +15,11 @@ const DarkModeSwitch = () => {
   }
 
   return (
-    <div className="w-full bg-slate-100 dark:bg-indigo-950 flex justify-between items-center">
+    <div className="w-full flex justify-between items-center">
       <div className="flex grow-0 gap-x-8">
         {theme}
-        <button onClick={() => setTheme('light')}>Light Mode</button>
-        <button onClick={() => setTheme('dark')}>Dark Mode</button>
+        <button onClick={() => setTheme('light')}>Light</button>
+        <button onClick={() => setTheme('dark')}>Dark</button>
       </div>
     </div>
   );
