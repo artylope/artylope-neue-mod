@@ -7,16 +7,18 @@ export default function Home() {
       <div className="container overflow-hidden">
         <div className="grid lg:grid-cols-12 gap-4">
           <div className="lg:col-span-6">
-            <div className="py-36 pr-12">
-              <h2 className="text-4xl mb-8">Hello, I am Yi Xin</h2>
-              <h1 className="text-5xl lg:text-8xl  mb-12">
+            <div className="lg:py-36 lg:pr-16">
+              <h2 className="text-2xl lg:text-4xl mb-4 lg:mb-8">
+                Hello, I am Yi Xin
+              </h2>
+              <h1 className="text-3xl lg:text-8xl mb-4 lg:mb-12">
                 I solve problems, simplify complex ideas and craft intuitive and
                 delightful experiences.
               </h1>
-              <p className="text-xl  text-slate-700 dark:text-slate-300 leading-relaxed">
+              <p className="text-lg lg:text-xl text-slate-700 dark:text-slate-300 lg:leading-relaxed">
                 Lead Product Designer at{' '}
-                <strong>Open Government Products, Singapore</strong>. <br />
-                Previously from <strong>Stripe</strong> and{' '}
+                <strong>Open Government Products, Singapore</strong>. Previously
+                from <strong>Stripe</strong> and{' '}
                 <strong>Amazon Web Services</strong>.
               </p>
             </div>

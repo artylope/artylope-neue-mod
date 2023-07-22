@@ -14,7 +14,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   }
   return (
-    <header className="p-8">
+    <header className="py-4">
       <div className="">
         <div className="container mx-auto ">
           <div className="relative flex flex-col lg:flex-row w-full justify-center lg:justify-between lg:items-center py-4 gap-x-12">
