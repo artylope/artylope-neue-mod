@@ -12,8 +12,8 @@ export default function Home() {
                 Hello, I am Yi Xin
               </h2>
               <h1 className="text-3xl lg:text-8xl mb-4 lg:mb-12 tracking-tight">
-                I solve problems, simplify complex ideas and create intuitive
-                and delightful experiences.
+                I solve problems, simplify complex ideas, create intuitive and
+                delightful experiences.
               </h1>
               <p className="text-lg lg:text-2xl text-slate-800 dark:text-slate-300 lg:leading-relaxed">
                 Lead Product Designer at{' '}
