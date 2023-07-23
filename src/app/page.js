@@ -4,14 +4,15 @@ import phoneIntro from '@/img/phone-intro.png';
 export default function Home() {
   return (
     <>
+      {/* first container */}
       <div className="container overflow-hidden">
         <div className="grid lg:grid-cols-12 gap-4">
           <div className="lg:col-span-6">
             <div className="lg:py-36 lg:pr-16">
-              <h2 className="text-lg lg:text-4xl mb-4 lg:mb-8 text-slate-800">
+              <h2 className="text-lg lg:text-4xl mb-4 lg:mb-12 text-slate-800 dark:text-white">
                 Hello, I am Yi Xin
               </h2>
-              <h1 className="text-3xl lg:text-8xl mb-4 lg:mb-12 tracking-tight">
+              <h1 className="text-3xl lg:text-8xl mb-4 lg:mb-20 tracking-tight leading-relaxed">
                 I solve problems, simplify complex ideas, create intuitive and
                 delightful experiences.
               </h1>
@@ -24,8 +25,11 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:col-span-6 flex justify-center items-center">
-            <Image src={phoneIntro} height={720} alt="Yi Xin's Mock Phone" />
-            <div className="before:content-[''] before:bg-red-500 before:block before:absolute before:right-0 before:w-[50vw] before:top-0 before:bottom-0 before:-z-10 before:-mx-80"></div>
+            <div className="-mt-12">
+              <Image src={phoneIntro} height={720} alt="Yi Xin's Mock Phone" />
+            </div>
+
+            <div className="before:content-[''] before:bg-red-500 before:block before:absolute before:right-0 before:w-[50vw] before:top-0 before:bottom-0 before:-z-10 before:-mr-64"></div>
           </div>
         </div>
       </div>

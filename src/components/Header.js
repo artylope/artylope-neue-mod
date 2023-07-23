@@ -37,17 +37,16 @@ const Header = () => {
                 )}
               </div>
             </div>
-
-            {/* nav + login button */}
+            <DarkModeSwitch />
+            {/* nav */}
             <div
               className={` ${
                 isMenuOpen ? 'flex' : 'hidden lg:flex'
               } w-full h-full grow items-center justify-start lg:justify-end gap-x-12 flex-col lg:flex-row gap-y-3`}
             >
               {' '}
-              <nav className="w-full grow flex ">
-                <ul className="w-full grow flex gap-x-8 gap-y-2 flex-col justify-start items-start lg:flex-row lg:justify-end lg:items-center">
-                  <DarkModeSwitch />
+              <nav className="w-full flex">
+                <ul className="w-full flex gap-x-8 gap-y-2 flex-col justify-start items-start lg:flex-row lg:justify-end lg:items-center ">
                   <NavLink link="/" label="Home" />
                   <NavLink link="/works" label="Works" />
                   <NavLink link="/blog" label="Blog" />
